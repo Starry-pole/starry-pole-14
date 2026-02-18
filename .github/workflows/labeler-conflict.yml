@@ -1,4 +1,4 @@
-name: Check Merge Conflicts
+name: Проверка конфликтов слияния
 
 on:
   pull_request_target:
@@ -13,9 +13,9 @@ jobs:
     if: ( github.event.pull_request.draft == false ) && ( github.actor != 'PJBot' )
     runs-on: ubuntu-latest
     steps:
-      - name: Check for Merge Conflicts
+      - name: Проверка на наличие конфликтов слияния
         uses: eps1lon/actions-label-merge-conflict@v3.0.0
         with:
-          dirtyLabel: "S: Merge Conflict"
+          dirtyLabel: "S: Конфликт слияния"
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          commentOnDirty: "This pull request has conflicts, please resolve those before we can evaluate the pull request."
+          commentOnDirty: "Этот pull request имеет конфликты, пожалуйста, разрешите их, прежде чем мы сможем оценить pull request."

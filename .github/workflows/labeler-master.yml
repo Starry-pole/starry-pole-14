@@ -1,0 +1,16 @@
+name: "Метки: Ветка master"
+
+on:
+  pull_request_target:
+    types:
+      - opened
+    branches:
+      - 'master'  # Изменено с 'stable' на 'master'
+
+jobs:
+  add_label:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions-ecosystem/action-add-labels@v1
+      with:
+        labels: "Ветка: Master"

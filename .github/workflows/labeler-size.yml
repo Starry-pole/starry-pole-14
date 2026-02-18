@@ -1,4 +1,4 @@
-name: "Labels: Size"
+name: "Метки: Размер"
 on: pull_request_target
 jobs:
   size-label:
@@ -9,7 +9,7 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         with:
-          # Custom size configuration
+          # Пользовательская настройка размеров
           sizes: >
             {
               "0": "XS",

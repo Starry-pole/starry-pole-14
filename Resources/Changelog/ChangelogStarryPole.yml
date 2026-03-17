@@ -1,0 +1,18 @@
+# Changelog StarryPole
+# Этот файл автоматически обновляется при добавлении changelog в PR
+
+- author: Fynex-x
+  changes:
+  - message: Добавлено test
+    type: Add
+  - message: Удалено test
+    type: Remove
+  - message: Изменено test
+    type: Tweak
+  - message: Исправлено test
+    type: Fix
+
+  id: 1
+  time: '2026-03-17T17:36:07.0000000+00:00'
+  url: https://github.com/Starry-pole/starry-pole-14/pull/10
+

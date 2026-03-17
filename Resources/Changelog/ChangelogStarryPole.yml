@@ -1,0 +1,25 @@
+id: 1
+  time: '2026-03-17T16:54:36.0000000+00:00'
+  url: https://github.com/Starry-pole/starry-pole-14/pull/9
+- author: Fynex-x
+  changes:
+  - message: "Добавлено веселье!"
+    type: Add
+  - message: "Удалено веселье!"
+    type: Remove
+  - message: "Изменено веселье!"
+    type: Tweak
+  - message: "Исправлено веселье!"
+    type: Fix
+  - message: "Добавлено 1веселье!"
+    type: Add
+  - message: "Удалено 1веселье!"
+    type: Remove
+  - message: "Изменено 1веселье!"
+    type: Tweak
+  - message: "Исправлено 1веселье!"
+    type: Fix
+
+# Changelog StarryPole
+# Этот файл автоматически обновляется при добавлении changelog в PR
+
